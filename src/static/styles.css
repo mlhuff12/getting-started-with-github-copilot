@@ -136,6 +136,38 @@ button:hover {
   display: none;
 }
 
+/* Participants styling for activity cards */
+.participants {
+  margin-top: 10px;
+  padding: 10px;
+  background: linear-gradient(180deg, #ffffff, #fbfbfb);
+  border: 1px solid #ececec;
+  border-radius: 4px;
+}
+
+.participants strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #1a237e;
+}
+
+.participants ul {
+  margin-left: 1.0rem;
+  list-style: disc;
+}
+
+.participant-item {
+  color: #444;
+  font-size: 0.95rem;
+  padding: 2px 0;
+}
+
+.participant-empty {
+  font-style: italic;
+  color: #777;
+  margin: 0;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
